@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my webpage </title>
+    <meta charset="utf-8">
+    <meta name="descirption" content="webpage, with buttons ">
+    <meta name="keywords" content="Mths,website">
+    <meta name="author" content="Ahmad-El-khawaldeh">
+    <meta name="viewport" content="width=device-width,intial-scale1.0">
+   </head>
+   <body> enter the height</body>
+   <br>
+    <input type="text" id="rama" value="">
+       <button onclick="myfunction()"> </button>
+       
+        <p> enter base1</p>
+        <input type="text" id="abc" value="">
+       <button onclick="myfunction()"> </button>
+      
+        <p> enter base2</p>
+        <input type="text" id="ahmad" value="">
+       <button onclick="myfunction()"> </button>
+       <br>
+       <br>
+       <button onclick="myfunction()">calculate the area of trapezoid</button>
+       
+       <script>
+       function myfunction() {
+       let base1 ;
+       let base2 ;
+       let height;
+       let trapezoidArea ;
+       
+          height=document.getElementById("rama").value ;
+          base1=document.getElementById("abc").value ;
+          base2=document.getElementById("ahmad").value ;
+          trapezoidArea= ((+base1 + base2) / 2)* height ;
+        
+        alert ("the area of the  trapezoid  is "+ trapezoidArea )
+       }
+       </script>
+       </html>
+   
+   
+   
