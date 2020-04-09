@@ -31,10 +31,10 @@
        let height;
        let trapezoidArea ;
        
-          height=document.getElementById("rama").value ;
-          base1=document.getElementById("abc").value ;
-          base2=document.getElementById("ahmad").value ;
-          trapezoidArea= ((+base1 + base2) / 2)* height ;
+          height=+document.getElementById("rama").value ;
+          base1=+document.getElementById("abc").value ;
+          base2=+document.getElementById("ahmad").value ;
+          trapezoidArea= ((base1 + base2) / 2)* height ;
         
         alert ("the area of the  trapezoid  is "+ trapezoidArea )
        }
